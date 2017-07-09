@@ -36,3 +36,5 @@ gulp.task('tests', function(){
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('dist'));
 });
+
+// See also https://www.npmjs.com/package/sass-css-stream
